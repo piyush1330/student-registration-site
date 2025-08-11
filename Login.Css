@@ -1,0 +1,121 @@
+  body {
+        padding: 0;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background-color: white;
+       
+        
+       }
+       .container {
+        margin: 50px auto;
+        background-color: #fff;
+        border-radius: 15px;
+        height: auto;
+        overflow: hidden;
+        text-align: center;
+        padding: 20px 10px;
+        width: 80%;
+        max-width: 340px;
+        box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.2);
+       
+      
+       
+       }
+       .container h1{
+        font-size: 2.8rem;
+        color: rgb(39, 1, 30);
+       }
+       .form-box {
+        
+       }
+       .input {
+        /* margin-left: 5px; */
+
+       }
+       .input input {
+       
+        /* width: 70%; */
+        max-width: 280px;
+        border: none;
+        margin: 12px;
+        /* height: 10px; */
+        border-radius: 10px;
+        background-color: rgb(248, 248, 248);
+        padding: 12px;
+        font-size: 1rem;
+       
+       
+        
+       }
+     
+
+       .forgot-link {
+        margin: 10px;
+       }
+       .forgot-link a {
+        text-decoration: none;
+        color: rgb(5, 49, 5);
+       }
+       .login-btn {
+        margin: 10px;
+        padding: 13px;
+        width: 200px;
+        border-radius: 10px;
+        text-align: center;
+        font-weight: bold;
+        border: none;
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        background-color: orange;
+
+       }
+       .logo {
+        color: orange;
+       padding: 36px;
+       border-bottom: 1px solid rgba(245, 222, 179, 0.24);
+       margin-top: 35px;
+       border-top: 1px solid rgba(245, 222, 179, 0.171);
+       background-color:  rgb(252, 252, 252);
+       font-family: cursive;
+       font-size: 1.2rem;
+       text-align: center;
+       }
+       .logo span {
+        color: rgb(41, 2, 41);
+        font-weight: bold;
+        font-family: monospace;
+
+       }
+       .toggle-box {
+        text-align: center;
+        z-index: 2;
+        margin: 30px;
+        width: 260px;
+
+       }
+       .toggle-box h2 {
+        color:  rgb(39, 1, 30);
+        font-size: 2rem;
+       }
+       .toggle-box p {
+        color: rgb(11, 85, 119);
+        margin-top: -10px;
+
+       }
+       .tg-btn {
+        padding: 13px;
+        display: block;
+        border-radius: 34px;
+        border: none;
+        /* width: 72%; */
+        /* margin-left: 22px; */
+        font-size: 1rem;
+        font-weight: bold;
+        color:  rgb(39, 1, 30);
+        background-color: white;
+        text-decoration: none;
+        border: 2px solid orange;
+        
+        
+      
+       }

@@ -1,0 +1,156 @@
+  body {
+            background-color: rgb(255, 255, 255);
+            padding: 0;
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+        }
+        header {
+            /* text-align: center; */
+            
+            background-color: #fff8e1;
+            padding: 18px;
+            margin-top: 34px;
+            /* border-radius: 10px; */
+           
+        }
+        h1 {
+            color: rgb(39, 1, 30);
+            
+        }
+        h1 span {
+            overflow: hidden;
+            color: orange;
+            border-right: 3px solid rgb(92, 4, 84);
+            white-space: nowrap;
+            width: 0;
+            animation: typing 3s steps(30, end)forwards, blink 0.7s 
+            step-end infinite;
+            font-family: monospace;
+        }
+        @keyframes typing {
+            from {width: 0}
+            to {width: 100%}
+        }
+        @keyframes blink {
+            50% {border-color: transparent}
+        }
+        p {
+            color: rgba(23, 1, 18, 0.829);
+        }
+        
+        .scho-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            padding: 18px;
+            margin: 12px;
+           
+            text-align: center;
+        }
+        .scho-card {
+            background-color: white;
+            padding: 18px;
+            border-radius: 10px;
+            width: 80%;
+            text-align: left;
+            box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+
+        }
+        .scho-card h2 {
+            font-size: 1.5rem;
+            color: rgb(39, 1, 30);
+        }
+        .scho-card p {
+            /* color: black; */
+            font-size: 1rem;
+            color: rgba(23, 1, 18, 0.829);
+            font-weight: 550;
+        }
+        .scho-card a {
+            padding: 8px;
+            margin: 10px;
+            background-color: #f9a825;
+            color: white;
+            /* color: rgb(39, 1, 30); */
+            border-radius: 40px;
+            text-decoration: none;
+            border: 2px solid orange;
+            font-weight: 540;
+            font-size: 0.9rem;
+
+        }
+        .scho-card a:hover {
+            background-color: white;
+            border: 2px solid orange;
+            color:  rgb(39, 1, 30);
+        }
+        .logo {
+            text-align: center;
+            padding: 40px;
+            background-color: rgb(255, 255, 255);
+            /* border-bottom: 1px solid rgba(245, 222, 179, 0.137); */
+            color: orange;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 1.2rem;
+
+        }
+        .logo span {
+            color: rgb(39, 1, 30);
+            font-family: monospace;
+            font-weight: bold;
+
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(245, 222, 179, 0.171);
+            background-color: rgb(252, 252, 252);
+            
+            
+        }
+        .nav-links {
+           
+
+        }
+    .nav-links ul {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        margin: 24px;
+        margin-left: -8px;
+       
+        
+    }
+    .nav-links ul li {
+        text-align: center;
+        /* margin: 10px; */
+
+    }
+    .nav-links ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(75, 75, 75);
+
+    }
+    .nav-links ul li a:hover {
+        border-bottom: 2px solid  rgb(39, 1, 30);
+    }
+    footer {
+        text-align: center;
+        display: block;
+        background-color: rgba(245, 222, 179, 0.123);
+        border-radius: 2px;
+        padding: 9px;
+        font-family: "Poppins", sans-serif;
+    }
+    .footer-links a{
+        text-decoration: none;
+        color: rgb(7, 11, 51);
+        font-size: 1.2rem;
+    }
+    .footer-links a:hover {
+        text-decoration: underline;
+    }

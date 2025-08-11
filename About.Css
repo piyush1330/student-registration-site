@@ -1,0 +1,167 @@
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background-color: rgb(255, 255, 255);
+        }
+        .container {
+            /* margin: 20px; */
+            /* padding: 10px; */
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .logo {
+            color: rgb(47, 47, 252);
+            font-weight: bold;
+            text-align: center;
+            background-color: rgb(252, 252, 252);
+            padding: 36px;
+            margin-top: 35px;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: orange;
+            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+            
+
+        }
+        .logo span {
+            color: rgb(39, 1, 30);
+            font-family: monospace;
+        }
+        .nav-links {
+
+        }
+        .nav-links ul {
+            display: flex;
+            list-style: none;
+            gap: 26px;
+            margin-left: -35px;
+        }
+        .nav-links ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: grey;
+        }
+        .hero-section {
+           
+        }
+        .hero-text {
+            background-color: #fff8e1;
+            padding: 18px;
+            margin-top: 34px;
+        }
+        .hero-text h1 {
+            font-weight: bolder;
+            font-size: 2.4rem;
+            color: rgb(39, 1, 30);
+            width: 80%;
+
+        }
+        .hero-text span {
+             overflow: hidden;
+            color: orange;
+            border-right: 3px solid rgb(92, 4, 84);
+            white-space: nowrap;
+            width: 0;
+            animation: typing 3s steps(30, end)forwards, blink 0.7s 
+            step-end infinite;
+            font-family: monospace;
+        }
+        @keyframes typing {
+            from {width: 0}
+            to {width: 100%}
+        }
+        @keyframes blink {
+            50% {border-color: transparent}
+        }
+        .hero-text p {
+            gap: 40px;
+            color:  rgba(23, 1, 18, 0.829);
+            /* font-family: monospace; */
+           
+            
+        }
+        .contect-btn {
+            padding: 14px;
+            margin: 20px;
+            margin-top: 30px;
+            text-align: center;
+            border-radius: 60px;
+            border: none;
+            background-color: rgb(255, 166, 0);
+            color: white;
+            font-weight: bolder;
+            transform: translateY(30px);
+        animation: fadeInUp 0.8s ease-out forwards;
+        opacity: 0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+       }
+       .contect-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+       }
+       .btn:nth-child(2) {
+        animation-delay: 0.2s;
+       }
+       .btn:nth-child(3) {
+        animation-delay: 0.4s
+       }
+       @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+       }
+        
+         .social-links {
+        margin-top: 28px;
+        text-align: center;
+        border-top: 2px solid rgba(190, 186, 186, 0.103);
+        padding: 30px;
+        background-color: #faf3f331;
+        margin-bottom: 30px;
+        
+       }
+       .social-links h2 {
+        color: rgb(39, 1, 30);
+        font-size: 1.7rem;
+        /* font-family: monospace; */
+        font-weight: 550;
+       
+       }
+       .social-links  ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -46px;
+       }
+       .social-links ul li {
+        text-align: center;
+        margin: 20px;
+        
+       }
+       .social-links ul li a {
+        color: rgb(6, 6, 61);
+        font-size: 1.5rem;
+        
+       }
+
+        footer {
+            text-align: center;
+           
+            padding: 9px;
+            background-color: rgba(245, 222, 179, 0.123);
+            font-size: 0.9rem;
+           
+        }

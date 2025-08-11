@@ -1,0 +1,159 @@
+ body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background-color: white;
+
+        }
+        .logo {
+            text-align: center;
+            padding: 36px;
+            margin-top: 35px;
+            margin-bottom: 18px;
+            background-color: rgb(252, 252, 252);
+            border-top: 1px solid  rgba(245, 222, 179, 0.274);
+            border-top: 1px solid  rgba(245, 222, 179, 0.274);
+            color: orange;
+            font-family: cursive;
+            font-size: 1.2rem;
+            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+            
+        }
+        .logo span {
+            color:  rgb(39, 1, 30);
+            font-family: monospace;
+            font-weight: bold;
+        }
+        .contect-container {
+            text-align: left;
+            
+        }
+        
+       
+        .contect-text {
+            background-color: #fff8e1;
+            margin-top: 34px;
+            padding: 18px;
+           
+        }
+        .contect-text h2 {
+            color:  rgb(39, 1, 30);
+            font-size: 2rem;
+            width: 70%;  
+        }
+        .contect-text span {
+            overflow: hidden;
+            color: orange;
+            border-right: 3px solid rgb(92, 4, 84);
+            white-space: nowrap;
+            width: 0;
+            animation: typing 3s steps(30, end)forwards, blink 0.7s 
+            step-end infinite;
+            font-family: monospace;
+        }
+        @keyframes typing {
+            from {width: 0}
+            to {width: 100%}
+        }
+        @keyframes blink {
+            50% {border-color: transparent}
+        }
+        .contect-text p {
+           padding-top: 0;
+           color:  rgba(23, 1, 18, 0.829);
+        }
+       .contect-options {
+        padding: 10px;
+        margin: 10px;
+        margin-top: 20px;
+        padding-left: 16px;
+        border: none;
+        border-radius: 50px;
+        border: 2px solid orange;
+        text-align: left;
+        background-color: white;
+        
+       
+       
+       }
+       .contect-options i {
+        color: rgb(5, 5, 71);
+        font-size: 1.2rem;
+        
+       }
+       .contect-options a {
+        text-decoration: none;
+        font-weight: 550;
+        font-size: 0.8rem;
+        color: rgb(39, 1, 30);
+        text-align: left;
+        align-items: center;
+       }
+       .social-links {
+        margin: 28px;
+        text-align: center;
+        
+       }
+       .social-links h2 {
+        color: rgb(39, 1, 30);
+       }
+       .social-links  ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: -46px;
+       }
+       .social-links ul li {
+        text-align: center;
+        margin: 20px;
+        
+       }
+       .social-links ul li a {
+        color: rgb(6, 6, 61);
+        font-size: 1.5rem;
+        
+       }
+       footer {
+        text-align: center;
+        display: block;
+        background-color: rgba(245, 222, 179, 0.123);
+        border-radius: 2px;
+        padding: 9px;
+        
+        
+       }
+       .contect-btn {
+        padding: 16px;
+        margin: 20px;
+        color: white;
+        background-color: orange;
+        font-weight: bold;
+        border: none;
+        border-radius: 30px;
+        transform: translateY(30px);
+        animation: fadeInUp 0.8s ease-out forwards;
+        opacity: 0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+       }
+       .contect-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+       }
+       .btn:nth-child(2) {
+        animation-delay: 0.2s;
+       }
+       .btn:nth-child(3) {
+        animation-delay: 0.4s
+       }
+       @keyframes fadeInUp {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+       }

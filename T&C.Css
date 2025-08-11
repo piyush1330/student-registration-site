@@ -1,0 +1,38 @@
+ body {
+            padding: 0;
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+            
+        }
+        .term-top {
+             background: linear-gradient(192deg, #150a80,  rgb(220, 10, 228));
+             color: white;
+             padding: 12px;
+
+        }
+        .term-top h2 {
+            margin-top: 60px;
+            padding-left: 14px;
+            color: white;
+        }
+        .term-top p {
+            padding-left: 14px;
+            margin-top: -10px;
+          
+        }
+        .term-main {
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+           
+        }
+        .term-main p {
+            font-size: 2.3rem;
+            color: rgb(39, 1, 30);
+        }
+        .term-main u {
+           margin-top: 0;
+
+        }
+        .term-main b {
+            color:  rgba(23, 1, 18, 0.829);
+        }

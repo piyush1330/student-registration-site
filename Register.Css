@@ -1,0 +1,96 @@
+  body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            background-color: white;
+        }
+        .logo {
+            text-align: center;
+           margin-top: 35px;
+           border-bottom: 1px solid rgba(245, 222, 179, 0.274);
+           padding: 36px;
+           color: orange;
+           font-family: cursive;
+           background-color: rgb(252, 252, 252);
+           border-top: 1px solid  rgba(245, 222, 179, 0.274);
+           font-size: 1.2rem;
+        }
+        .logo span {
+            color:  rgb(39, 1, 30);
+            font-family: monospace;
+            font-weight: bold;
+        }
+        .container {
+            text-align: center;
+            margin: 50px auto;
+            background-color: rgb(255, 255, 255);
+            overflow: hidden;
+            padding: 20px 10px;
+            width: 80%;
+            border-radius: 15px;
+            max-width: 340px;
+            height: auto;
+            box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .form-box {
+            top: 50px;
+            /* margin: 20px; */
+        }
+        .form-box h1 {
+            margin: 15px;
+            margin-bottom: 38px;
+            margin-top: 30px;
+            padding: 16px;
+            font-size: 2.6rem;
+            color:  rgb(39, 1, 30);
+        }
+        .input {
+            
+            text-align: center;
+        }
+        .input input {
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+            background-color: rgb(248, 248, 248);
+            font-size: 1rem;
+            margin: 10px;
+            
+
+        }
+        .register-btn {
+            padding: 13px;
+            margin: 16px;
+            border-radius: 10px;
+            border: none;
+            width: 210px;
+            font-weight: bold;
+            font-size: 1rem;
+            color: rgb(255, 255, 255);
+            margin-bottom: 24px;
+            background-color: orange;
+        }
+        .toggle-box {
+            text-align: center;
+        }
+        .toggle-box h1 {
+            color:  rgb(39, 1, 30);
+            font-size: 2rem;
+        }
+        .toggle-box p{
+            color: rgb(11, 85, 119);
+            margin-top: -5px;
+        }
+        .tgl-login {
+            padding: 12px;
+            margin: 10px;
+            width: 220px;
+            font-size: 1rem;
+            color:  rgb(39, 1, 30);
+            font-weight: bold;
+            border-radius: 34px;
+            border: 2px solid orange;
+            background-color: white;
+           
+        }
